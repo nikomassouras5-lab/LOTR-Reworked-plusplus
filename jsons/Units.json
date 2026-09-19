@@ -1384,29 +1384,44 @@
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
+	
+		{
+    "name": "Nazgul",
+    "unitType": "Mounted",
+    "uniqueTo": "Mordor",
+    "strength": 15,
+    "replaces": "Great General",
+    "upgradesTo": "Nazgul-Fellbeast",
+    "cost": 80,
+    "uniques": [
+        "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+        "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+        "Consumes [1] [Nazgul]",
+        "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+        "Great Person - [War]",
+        "Unbuildable",
+        "Comment [May be upgraded with Fellbeasts]"
+    ],
+    "movement": 4
+},
+	
 	{
-    	"name": "Nazgul",
-		"unitType": "Mounted",
-		"uniqueTo": "Mordor",
-		"strength": 16,
-		"replaces": "Great General",
-		"upgradesTo": "Nazgul-Fellbeast",
-		"cost": 80,
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Consumes [1] [Nazgul]", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable",
-			"Comment [May be upgraded with Fellbeasts]",]
-		"movement": 4
-	},
-	{
-		"name": "Nazgul-Fellbeast",
-		"unitType": "Flying",
-		"uniqueTo": "Mordor",
-		"strength": 28,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Fellbeast",
-		"promotions": ["Beast"],
-		"uniques": ["Unable to capture cities","Nazgul", "Unbuildable",
-			"Consumes [1] [Nazgul]","[-40]% Strength <before the [Third Age]>", "Only available <with [Block]>"],
-		"movement": 6,
-		"cost": 120,
-	}
+    "name": "Nazgul-Fellbeast",
+    "unitType": "Flying",
+    "uniqueTo": "Mordor",
+    "strength": 25,
+    "requiredTech": "Chivalry",
+    "promotions": [
+        "Beast"
+    ],
+    "uniques": [
+        "Unable to capture cities",
+        "Nazgul",
+        "Unbuildable",
+        "[-40]% Strength <before the [Third Age]>"
+ ],
+    "movement": 5,
+    "cost": 120
+},
+	
 ]
